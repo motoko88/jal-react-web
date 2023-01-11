@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Tokyo",
+    "description": "Tokyo (/ˈtoʊkioʊ/;[7] Japanese: 東京, Tōkyō, [toːkʲoː] (listen)), officially the Tokyo Metropolis (東京都, Tōkyō-to), is the capital and largest city of Japan.[8] Formerly known as Edo, its metropolitan area (13,452 square kilometers or 5,194 square miles) is the most populous in the world, with an estimated 37.468 million residents as of 2018;[9] the city proper has a population of 13.99 million people.[4] Located at the head of Tokyo Bay, the prefecture forms part of the Kantō region on the central coast of Honshu, Japan's largest island. Tokyo serves as Japan's economic center and is the seat of both the Japanese government and the Emperor of Japan.",
+    "price": 1299.99,
+    "date": "05/05/2023"
+  },
+  {
+    "name": "Kyoto",
+    "description": "Kyoto (/ˈkjoʊtoʊ/;[3] Japanese: 京都, Kyōto [kʲoꜜːto] (listen)), officially Kyoto City (京都市, Kyōto-shi, [kʲoːtoꜜɕi] (listen)), is the capital city of Kyoto Prefecture in Japan. Located in the Kansai region on the island of Honshu, Kyoto forms a part of the Keihanshin metropolitan area along with Osaka and Kobe. As of 2020, the city had a population of 1.46 million. The city is the cultural anchor of a substantially larger metropolitan area known as Greater Kyoto, a metropolitan statistical area (MSA) home to a census-estimated 3.8 million people.",
+    "price": 1499.99,
+    "date": "11/11/2023"
+  },
+
+  {
+    "name": "Sapporo",
+    "description": "Sapporo[a] (札幌市, Sapporo-shi, IPA: [sapːoɾo ɕi]) (Ainu: サッ・ポロ・ペッ, romanized: Satporopet, lit. 'Dry, Great River')[2] is a city in Japan. It is the largest city north of Tokyo and the largest city on Hokkaido, the northernmost main island of the country. It ranks as the fifth most populous city in Japan. It is the capital city of Hokkaido Prefecture and Ishikari Subprefecture. Sapporo lies in the southwest of Hokkaido, within the alluvial fan of the Toyohira River, which is a tributary stream of the Ishikari. It is considered the cultural, economic, and political center of Hokkaido.",
+    "price": 1499.99,
+    "date": "02/01/2023"
+  }
+]

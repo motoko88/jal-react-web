@@ -1,0 +1,43 @@
+.travel-card-container {
+  opacity: 0.9;
+  background-color: var(--primary);
+  color: var(--typography-primary);
+  margin: 50px 5px 50px 5px;
+  padding: 25px;
+  border-radius: var(--app-border-radius);
+  border-left: solid var(--dark-accent) 7px;
+
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow */
+  /* filter: drop-shadow(5px 5px 5px lightgray); */
+
+  max-width: 25%;
+  max-height: 66%;
+}
+
+.description {
+  text-align: left;
+  flex-basis: 75%;
+  overflow: auto;
+  max-height: 400px;
+  /* https://www.w3schools.com/howto/howto_css_hide_scrollbars.asp */
+  scrollbar-width: none; /* Firefox */
+}
+
+.price {
+  flex: 1 / 0 / 50%;
+  color: var(--dark-accent);
+}
+
+.button {
+  border: solid var(--dark-accent) 3px;
+  border-radius: 22px;
+  opacity: 1;
+  padding: 15px;
+  background-color: var(--primary);
+  color: var(--dark-accent);
+  font-weight: bold;
+  cursor: pointer;
+}

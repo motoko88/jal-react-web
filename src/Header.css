@@ -1,0 +1,33 @@
+.app-header {
+  padding: 10px 0 10px 0;
+  background-color: var(--primary);
+  font-size: calc(10px + 2vmin);
+  color: var(--typography-primary);
+  display: flex;
+  justify-content: center;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+
+#header-title {
+  cursor: pointer;
+}
+
+.app-header .button {
+  background-color: red;
+  color: white;
+  padding: 7px 15px 7px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.app-header .button:hover {
+  background-color: rgb(150, 7, 7);
+}

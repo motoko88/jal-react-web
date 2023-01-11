@@ -1,0 +1,33 @@
+:root {
+  /* Dark Theme */
+  --primary: #282c34;
+  --typography-primary: white;
+  --dark-accent: rgb(228, 112, 131);
+  --accent: pink;
+
+  /* Light Theme */
+  /* --primary: white;
+  --typography-primary: rgb(228, 112, 131);
+  --dark-accent: rgb(228, 112, 131);
+  --accent: var(--dark-accent); */
+
+  --header-color: var(--primary);
+  --footer-color: var(--primary);
+  --main-bg-color: whitesmoke;
+  --app-border-radius: 15px;
+}
+
+body {
+  background-color: var(--main-bg-color);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

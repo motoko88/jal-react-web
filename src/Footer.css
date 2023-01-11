@@ -1,0 +1,51 @@
+/* https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+.app-footer {
+  width: 100%;
+  background-color: var(--footer-color);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.app-footer ul {
+  text-align: left;
+  list-style: none;
+}
+
+#horizontal-links {
+  padding-bottom: 25px;
+  background-color: var(--footer-color);
+}
+
+#horizontal-links ul {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+}
+
+/* https://stackoverflow.com/questions/15710701/horizontal-list-items */
+#horizontal-links ul > li {
+  display: inline-block;
+  margin: 0 15px 0 15px;
+}
+
+/* https://www.w3schools.com/html/html_links_colors.asp */
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: var(--accent);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}

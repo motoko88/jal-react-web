@@ -1,0 +1,49 @@
+.app {
+  text-align: center;
+}
+
+#headerline {
+  background-color: red;
+  height: 2px;
+}
+
+.body-content {
+  display: grid;
+  grid-template: 1fr / 40vw 60vw;
+}
+
+.left {
+  grid-column: 1 / 2;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.right {
+  grid-column: 2 / 3;
+  display: flex;
+}
+
+#accept-cookies {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  width: 25vw;
+  left: 0;
+  border-radius: var(--app-border-radius);
+  margin: 5px;
+  padding: 15px 10px 15px 10px;
+}
+
+#accept-cookies-content {
+  display: flex;
+  flex-direction: column;
+  color: var(--accent);
+}
+
+#accept-cookies-content button {
+  width: 50%;
+}
