@@ -49,6 +49,9 @@ _You can draw on the picture and organize things if you want._
 
     - Check: Set up project
     - Talk about page design
+    - Implement Header, Body Background with Images, Footer
+    - Implement Cards
+    - Implement Behavior(s)
     
 
 ## Day 2
