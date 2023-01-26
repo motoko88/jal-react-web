@@ -48,8 +48,7 @@ export const Main = () => {
             height: "100vh",
             width: "100vw",
             maxWidth: "100vw",
-            objectFit: "cover",
-            transition: "opacity 2s ease-in"
+            objectFit: "cover"
           }}
         />
       )}

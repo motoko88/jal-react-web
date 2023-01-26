@@ -3,6 +3,7 @@
   background-color: var(--primary);
   font-size: calc(10px + 2vmin);
   color: var(--typography-primary);
+
   display: flex;
   justify-content: center;
 }

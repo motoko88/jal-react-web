@@ -7,6 +7,7 @@ import "./Header.css";
  */
 export const Header = () => {
   const navigate = useNavigate();
+
   return (
     <header className="app-header">
       <div className="header-content">
@@ -19,7 +20,7 @@ export const Header = () => {
           JAPAN AIRLINES
         </span>
         <button
-          className="primary button"
+          className="button"
           onClick={() => {
             navigate("/login");
           }}
